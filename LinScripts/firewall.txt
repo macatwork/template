@@ -1,0 +1,8 @@
+# Setup firewall
+
+sudo -s
+ufw reset
+ufw default deny incoming
+ufw allow ssh
+ufw enable
+ufw status

@@ -1,0 +1,5 @@
+# Daily Maintenance Script - run on cron job @reboot
+sudo apt-get update; sudo apt-get dist-upgrade; sudo apt autoremove;
+df -h
+>/var/log/syslog
+empty-trash
